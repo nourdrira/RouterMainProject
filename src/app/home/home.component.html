@@ -1,0 +1,10 @@
+<div class="container">
+  <h2>Liste des Résidences</h2>
+  
+  <!-- Affichage des résidences avec une boucle ngFor -->
+  <div *ngFor="let residence of residences">
+    <div class="residence">
+      <h3>{{ residence.name }}</h3>
+    </div>
+  </div>
+</div>

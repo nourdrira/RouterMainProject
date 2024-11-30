@@ -1,0 +1,10 @@
+<div class="residence-details">
+    <h2>{{ residence.name }}</h2>
+    <img [src]="residence.image" alt="{{ residence.name }}">
+    <p>Adresse: {{ residence.address }}</p>
+    <p>Status: {{ residence.status }}</p>
+    
+    <button (click)="goToNextResidence()">Next</button>
+    <button (click)="goToAddResidence()">Add or Update Residence</button>
+  </div>
+  
